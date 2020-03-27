@@ -1,0 +1,223 @@
+Started by user [8mha:////4I/wPqNGqFzc/3+a1Hbx+43uvzyAz71u/mzVbcDZOAJ9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0m???
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/gengmingze-push
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+No credentials specified
+using credential 8e412beb-8b1d-4980-a5a3-a54e63fa11bc
+Cloning the remote Git repository
+Cloning repository https://github.com/zhaoxi-GMZ/try3.git
+ > git init /var/jenkins_home/workspace/gengmingze-push # timeout=10
+Fetching upstream changes from https://github.com/zhaoxi-GMZ/try3.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials pipeline-github
+ > git fetch --tags --progress -- https://github.com/zhaoxi-GMZ/try3.git +refs/heads/*:refs/remotes/hook/* # timeout=10
+ > git config remote.hook.url https://github.com/zhaoxi-GMZ/try3.git # timeout=10
+ > git config --add remote.hook.fetch +refs/heads/*:refs/remotes/hook/* # timeout=10
+ > git config remote.hook.url https://github.com/zhaoxi-GMZ/try3.git # timeout=10
+Fetching upstream changes from https://github.com/zhaoxi-GMZ/try3.git
+using GIT_ASKPASS to set credentials pipeline-github
+ > git fetch --tags --progress -- https://github.com/zhaoxi-GMZ/try3.git +refs/heads/*:refs/remotes/hook/* # timeout=10
+ > git config remote.origin.url https://github.com/zhaoxi-GMZ/learngit2.git # timeout=10
+Fetching upstream changes from https://github.com/zhaoxi-GMZ/learngit2.git
+ > git fetch --tags --progress -- https://github.com/zhaoxi-GMZ/learngit2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/gengmingze^{commit} # timeout=10
+ > git rev-parse refs/remotes/hook/origin/gengmingze^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/gengmingze^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/gengmingze^{commit} # timeout=10
+Checking out Revision ac68c196d9bc4902f163cbe192c2b82f077c2040 (origin/gengmingze)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ac68c196d9bc4902f163cbe192c2b82f077c2040 # timeout=10
+Commit message: "3.25-18:01-GMZ"
+First time build. Skipping changelog.
+[gengmingze-push] $ /bin/sh -xe /tmp/jenkins4677716690598317584.sh
++ echo http://39.106.124.113:8080/job/gengmingze-push/19/
+http://39.106.124.113:8080/job/gengmingze-push/19/
+Parsing POMs
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.2.4.RELEASE/spring-boot-starter-parent-2.2.4.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies/Hoxton.SR1/spring-cloud-dependencies-Hoxton.SR1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/2.2.1.RELEASE/spring-cloud-dependencies-parent-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/2.2.1.RELEASE/spring-cloud-commons-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/2.2.1.RELEASE/spring-cloud-netflix-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/Horsham.SR1/spring-cloud-stream-dependencies-Horsham.SR1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-task-dependencies/2.2.2.RELEASE/spring-cloud-task-dependencies-2.2.2.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/1.0.0.RELEASE/spring-cloud-circuitbreaker-dependencies-1.0.0.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/2.2.0.RELEASE/spring-cloud-dependencies-parent-2.2.0.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/2.2.1.RELEASE/spring-cloud-config-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/3.0.1.RELEASE/spring-cloud-function-dependencies-3.0.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-dependencies/2.2.1.RELEASE/spring-cloud-gateway-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-dependencies/2.2.1.RELEASE/spring-cloud-consul-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-dependencies/2.2.1.RELEASE/spring-cloud-sleuth-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.9.0/brave-bom-5.9.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.11.0/zipkin-reporter-bom-2.11.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-vault-dependencies/2.2.1.RELEASE/spring-cloud-vault-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-zookeeper-dependencies/2.2.0.RELEASE/spring-cloud-zookeeper-dependencies-2.2.0.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-security-dependencies/2.2.0.RELEASE/spring-cloud-security-dependencies-2.2.0.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/2.2.0.RELEASE/spring-cloud-cloudfoundry-dependencies-2.2.0.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-bus-dependencies/2.2.0.RELEASE/spring-cloud-bus-dependencies-2.2.0.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-contract-dependencies/2.2.1.RELEASE/spring-cloud-contract-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-aws-dependencies/2.2.1.RELEASE/spring-cloud-aws-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-bom/1.11.415/aws-java-sdk-bom-1.11.415.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.415/aws-java-sdk-pom-1.11.415.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-dependencies/2.2.1.RELEASE/spring-cloud-openfeign-dependencies-2.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-kubernetes-dependencies/1.1.1.RELEASE/spring-cloud-kubernetes-dependencies-1.1.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/4.4.1/kubernetes-client-bom-4.4.1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gcp-dependencies/1.2.1.RELEASE/spring-cloud-gcp-dependencies-1.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-bom/0.119.0-alpha/google-cloud-bom-0.119.0-alpha.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/api/gax-bom/1.49.1/gax-bom-1.49.1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-asset-bom/0.115.0-beta/google-cloud-asset-bom-0.115.0-beta.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-shared-config/0.2.1/google-cloud-shared-config-0.2.1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-automl-bom/0.114.1-beta/google-cloud-automl-bom-0.114.1-beta.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-core-bom/1.91.3/google-cloud-core-bom-1.91.3.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-datacatalog-bom/0.29.0-alpha/google-cloud-datacatalog-bom-0.29.0-alpha.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-datalabeling-bom/0.116.1-alpha/google-cloud-datalabeling-bom-0.116.1-alpha.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-dlp-bom/0.116.0-beta/google-cloud-dlp-bom-0.116.0-beta.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-speech-bom/1.21.0/google-cloud-speech-bom-1.21.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-tasks-bom/1.26.0/google-cloud-tasks-bom-1.26.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-texttospeech-bom/0.117.0-beta/google-cloud-texttospeech-bom-0.117.0-beta.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-trace-bom/0.109.0-beta/google-cloud-trace-bom-0.109.0-beta.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-translate-bom/1.94.0/google-cloud-translate-bom-1.94.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-vision-bom/1.98.0/google-cloud-vision-bom-1.98.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-iot-bom/0.116.0-beta/google-cloud-iot-bom-0.116.0-beta.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-websecurityscanner-bom/0.116.0/google-cloud-websecurityscanner-bom-0.116.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-iamcredentials-bom/0.43.0-alpha/google-cloud-iamcredentials-bom-0.43.0-alpha.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-talent-bom/0.34.0-beta/google-cloud-talent-bom-0.34.0-beta.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-phishingprotection-bom/0.28.0/google-cloud-phishingprotection-bom-0.28.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-gameservices-bom/0.17.0/google-cloud-gameservices-bom-0.17.0.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.2/jackson-bom-2.10.2.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.10/jackson-parent-2.10.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.3.2/micrometer-bom-1.3.2.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.45.Final/netty-bom-4.1.45.Final.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR4/reactor-bom-Dysprosium-SR4.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.0-RC5/rsocket-bom-1.0.0-RC5.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.12.1/log4j-bom-2.12.1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.25.v20191220/jetty-bom-9.4.25.v20191220.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.29.1/jersey-bom-2.29.1.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.3.61/kotlin-bom-1.3.61.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.3/kotlinx-coroutines-bom-1.3.3.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.5.2/junit-bom-5.5.2.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.3.RELEASE/spring-framework-bom-5.2.3.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Moore-SR4/spring-data-releasetrain-Moore-SR4.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.2.4.RELEASE/spring-data-build-2.2.4.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.2.3.RELEASE/spring-integration-bom-5.2.3.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.2.1.RELEASE/spring-security-bom-5.2.1.RELEASE.pom
+Downloaded artifact https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Corn-RELEASE/spring-session-bom-Corn-RELEASE.pom
+Established TCP socket on 33220
+[gengmingze-push] $ /usr/java/jdk1.8.0_231-amd64/bin/java -cp /var/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar:/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven/conf/logging jenkins.maven3.agent.Maven35Main /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven /var/jenkins_home/war/WEB-INF/lib/remoting-3.36.1.jar /var/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /var/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 33220
+[gengmingze-push] $ /bin/bash /tmp/jenkins7596309370419391299.sh
+===== Add file to local git repo ===== 
+2020.02.25-01.html
+---------1------------
+* (HEAD detached at ac68c19)
+----------2-----------
+From https://github.com/zhaoxi-GMZ/try3
+ * [new branch]      master     -> master
+Merge made by the 'recursive' strategy.
+ .gitignore                                              |   3 +++
+ reports/Compile/gengmingze/.gitkeep                     |   0
+ reports/Compile/gengmingze/gengmingze-push-12.log       | Bin 0 -> 15024 bytes
+ reports/Compile/gengmingze/gengmingze-push-14.log       | Bin 0 -> 15817 bytes
+ reports/Compile/gengmingze/gengmingze-push-15.log       | Bin 0 -> 15836 bytes
+ reports/Compile/gengmingze/gengmingze-push-16.log       | Bin 0 -> 15988 bytes
+ reports/Compile/gengmingze/gengmingze-push-17.log       | Bin 0 -> 16136 bytes
+ reports/Compile/gengmingze/gengmingze-push-3.log        | Bin 0 -> 14952 bytes
+ reports/Compile/gengmingze/xuzijing-push4-1.log         | Bin 0 -> 15509 bytes
+ reports/Compile/gengmingze/xuzijing-push4-2.log         | Bin 0 -> 15471 bytes
+ reports/Compile/gengmingze/xuzijing-push4-3.log         | Bin 0 -> 16069 bytes
+ reports/Compile/liutianqi/.gitkeep                      |   0
+ reports/Compile/luzhanxing/.gitkeep                     |   0
+ reports/Compile/songjingyi/.gitkeep                     |   0
+ reports/Compile/sunxuewen/.gitkeep                      |   0
+ reports/Compile/weiwenqing/.gitkeep                     |   0
+ reports/Compile/xingjiaojiao/.gitkeep                   |   0
+ reports/Compile/xuzijing/.gitkeep                       |   0
+ reports/Compile/yangjingzheng/.gitkeep                  |   0
+ reports/Deploy/.gitkeep                                 |   0
+ reports/Sonar/gengmingze/.gitkeep                       |   0
+ reports/Sonar/liutianqi/.gitkeep                        |   0
+ reports/Sonar/luzhanxing/.gitkeep                       |   0
+ reports/Sonar/songjingyi/.gitkeep                       |   0
+ reports/Sonar/sunxuewen/.gitkeep                        |   0
+ reports/Sonar/weiwenqing/.gitkeep                       |   0
+ reports/Sonar/xingjiaojiao/.gitkeep                     |   0
+ reports/Sonar/xuzijing/.gitkeep                         |   0
+ reports/Sonar/yangjingzheng/.gitkeep                    |   0
+ reports/TestReports/TestReports-AT/.gitkeep             |   0
+ reports/TestReports/TestReports-IT/gengmingze/.gitkeep  |   0
+ reports/TestReports/TestReports-IT/liutianqi/.gitkeep   |   0
+ reports/TestReports/TestReports-IT/luzhanxing/.gitkeep  |   0
+ reports/TestReports/TestReports-IT/songjingyi/.gitkeep  |   0
+ reports/TestReports/TestReports-IT/sunxuewen/.gitkeep   |   0
+ reports/TestReports/TestReports-IT/weiwenqing/.gitkeep  |   0
+ .../TestReports/TestReports-IT/xingjiaojiao/.gitkeep    |   0
+ reports/TestReports/TestReports-IT/xuzijing/.gitkeep    |   0
+ .../TestReports/TestReports-IT/yangjingzheng/.gitkeep   |   0
+ reports/TestReports/TestReports-UT/gengmingze/.gitkeep  |   0
+ .../TestReports-UT/gengmingze/2020.02.25-01.html        |   1 +
+ reports/TestReports/TestReports-UT/liutianqi/.gitkeep   |   0
+ reports/TestReports/TestReports-UT/luzhanxing/.gitkeep  |   0
+ reports/TestReports/TestReports-UT/songjingyi/.gitkeep  |   0
+ reports/TestReports/TestReports-UT/sunxuewen/.gitkeep   |   0
+ reports/TestReports/TestReports-UT/weiwenqing/.gitkeep  |   0
+ .../TestReports/TestReports-UT/xingjiaojiao/.gitkeep    |   0
+ reports/TestReports/TestReports-UT/xuzijing/.gitkeep    |   0
+ .../TestReports/TestReports-UT/yangjingzheng/.gitkeep   |   0
+ 49 files changed, 4 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 reports/Compile/gengmingze/.gitkeep
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-12.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-14.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-15.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-16.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-17.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-3.log
+ create mode 100644 reports/Compile/gengmingze/xuzijing-push4-1.log
+ create mode 100644 reports/Compile/gengmingze/xuzijing-push4-2.log
+ create mode 100644 reports/Compile/gengmingze/xuzijing-push4-3.log
+ create mode 100644 reports/Compile/liutianqi/.gitkeep
+ create mode 100644 reports/Compile/luzhanxing/.gitkeep
+ create mode 100644 reports/Compile/songjingyi/.gitkeep
+ create mode 100644 reports/Compile/sunxuewen/.gitkeep
+ create mode 100644 reports/Compile/weiwenqing/.gitkeep
+ create mode 100644 reports/Compile/xingjiaojiao/.gitkeep
+ create mode 100644 reports/Compile/xuzijing/.gitkeep
+ create mode 100644 reports/Compile/yangjingzheng/.gitkeep
+ create mode 100644 reports/Deploy/.gitkeep
+ create mode 100644 reports/Sonar/gengmingze/.gitkeep
+ create mode 100644 reports/Sonar/liutianqi/.gitkeep
+ create mode 100644 reports/Sonar/luzhanxing/.gitkeep
+ create mode 100644 reports/Sonar/songjingyi/.gitkeep
+ create mode 100644 reports/Sonar/sunxuewen/.gitkeep
+ create mode 100644 reports/Sonar/weiwenqing/.gitkeep
+ create mode 100644 reports/Sonar/xingjiaojiao/.gitkeep
+ create mode 100644 reports/Sonar/xuzijing/.gitkeep
+ create mode 100644 reports/Sonar/yangjingzheng/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-AT/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/gengmingze/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/liutianqi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/luzhanxing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/songjingyi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/sunxuewen/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/weiwenqing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/xingjiaojiao/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/xuzijing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/yangjingzheng/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/gengmingze/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/gengmingze/2020.02.25-01.html
+ create mode 100644 reports/TestReports/TestReports-UT/liutianqi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/luzhanxing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/songjingyi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/sunxuewen/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/weiwenqing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/xingjiaojiao/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/xuzijing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/yangjingzheng/.gitkeep
+----------3-----------
+No local changes to save
